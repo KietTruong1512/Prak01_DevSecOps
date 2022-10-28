@@ -906,8 +906,8 @@
                 "height": 80
               },
               "position": {
-                "x": 670,
-                "y": 488
+                "x": 672,
+                "y": 453
               },
               "angle": 0,
               "id": "0d8def72-21ec-449d-9810-b7960f87d129",
@@ -962,11 +962,62 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "8891d482-b9e1-449e-a4ec-0fca060f4018"
+              },
+              "target": {
+                "id": "d1ea7c02-b616-4fbb-816b-2543de7bf774"
+              },
+              "vertices": [
+                {
+                  "x": 638,
+                  "y": 777
+                },
+                {
+                  "x": 136,
+                  "y": 747
+                },
+                {
+                  "x": 119,
+                  "y": 460
+                }
+              ],
+              "id": "35acc1b9-dcf4-4298-8ed0-1ab95ec0a4af",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "5 OTT",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 30,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 895,
+          "height": 978,
           "width": 2269
         }
       }
