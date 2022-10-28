@@ -102,7 +102,7 @@
                 "height": 80
               },
               "position": {
-                "x": 881,
+                "x": 951,
                 "y": 120
               },
               "angle": 0,
@@ -154,8 +154,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1115,
-                "y": 117
+                "x": 1153,
+                "y": 120
               },
               "angle": 0,
               "id": "059f1555-6f3d-4bdc-b5ea-2b0fc78f18fa",
@@ -180,8 +180,8 @@
                 "height": 100
               },
               "position": {
-                "x": 386,
-                "y": 275
+                "x": 403,
+                "y": 291
               },
               "angle": 0,
               "id": "c1d57007-a947-40ae-ac21-232bb57a1446",
@@ -232,8 +232,8 @@
                 "height": 80
               },
               "position": {
-                "x": 781,
-                "y": 289
+                "x": 742,
+                "y": 460
               },
               "angle": 0,
               "id": "8891d482-b9e1-449e-a4ec-0fca060f4018",
@@ -546,13 +546,18 @@
               "target": {
                 "id": "eb7ea051-9423-40ac-ace1-f3b0adf3502a"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 874,
+                  "y": 137
+                }
+              ],
               "id": "f3cbbff9-a851-4860-9f4e-a3168e4f6b72",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.6405974587931696,
-                    "offset": -4.75424807696954
+                    "distance": 0.45736418474809865,
+                    "offset": -27.015098473467678
                   },
                   "attrs": {
                     "text": {
@@ -564,6 +569,138 @@
                 }
               ],
               "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "eb7ea051-9423-40ac-ace1-f3b0adf3502a"
+              },
+              "target": {
+                "id": "696aceef-6062-43e5-b82b-6f85feab3104"
+              },
+              "vertices": [
+                {
+                  "x": 877,
+                  "y": 184
+                }
+              ],
+              "id": "50568019-5249-4575-973d-ae4fb26d17ab",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5578760003853991,
+                    "offset": -18.152985277886078
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "2b Telefonanbieter",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "eb7ea051-9423-40ac-ace1-f3b0adf3502a"
+              },
+              "target": {
+                "id": "059f1555-6f3d-4bdc-b5ea-2b0fc78f18fa"
+              },
+              "vertices": [
+                {
+                  "x": 1134,
+                  "y": 120
+                }
+              ],
+              "id": "7f522226-1001-486d-8070-ec90943a0755",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "059f1555-6f3d-4bdc-b5ea-2b0fc78f18fa"
+              },
+              "target": {
+                "id": "eb7ea051-9423-40ac-ace1-f3b0adf3502a"
+              },
+              "vertices": [
+                {
+                  "x": 1141,
+                  "y": 181
+                }
+              ],
+              "id": "b10f6e49-59c2-4029-9bc7-8910e50681b0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 22,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
