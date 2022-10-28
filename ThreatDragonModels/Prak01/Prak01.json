@@ -30,27 +30,38 @@
               "angle": 0,
               "id": "d1ea7c02-b616-4fbb-816b-2543de7bf774",
               "z": 1,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Low",
                   "modelType": "STRIDE",
                   "type": "Denial of service",
                   "title": "Login Anfrage",
-                  "mitigation": "Limitierte Anzahl an Anfrage\nTechnisch: Proxy vorschalten",
-                  "threatId": "4d143121-d051-418a-8d85-b9316169f7eb"
+                  "mitigation": "Limitierte Anzahl an Anfrage\nTechnisch: Proxy vorschalten\nRisikoreduktion: 3",
+                  "threatId": "4d143121-d051-418a-8d85-b9316169f7eb",
+                  "description": "Risikobewertung: 10"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Manager spoofen",
+                  "description": "Risikobewertung: 10",
+                  "mitigation": "MAC-Adressse und IP-Adresse überprüfen\nRisikobewertung: 6",
+                  "threatId": "1214dabb-c5cf-4a1b-9e74-e090bbfc88b4"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Login System +\nMobile App +\nWeb App"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -61,7 +72,7 @@
                 "height": 80
               },
               "position": {
-                "x": 364,
+                "x": 365,
                 "y": 155
               },
               "angle": 0,
@@ -77,6 +88,16 @@
                   "type": "Denial of service",
                   "mitigation": "Limitierte Anzahl an Anfragen\ntechnisch: Proxy vorschalten",
                   "threatId": "8ce27bf9-bf3e-4a09-81de-fe5f01dc71eb"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of privilege",
+                  "title": "Zugriff auf unverschlüsselte Konfigurationsdateien",
+                  "description": "Risikobewertung: 10",
+                  "mitigation": "Konfigurationsdatei verschlüsseln\nRisikoreduktion: 10",
+                  "threatId": "4990addb-3121-4626-9188-a34d0fe6a1ae"
                 }
               ],
               "attrs": {
@@ -156,28 +177,39 @@
               "angle": 0,
               "id": "bef5f4a4-9e73-44ea-903b-579750615c67",
               "z": 5,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isSigned": true,
               "threats": [
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Medium",
                   "modelType": "STRIDE",
                   "type": "Information disclosure",
                   "title": "Daten als Manager abfragen",
                   "threatId": "6b05b15e-e13e-4c92-95ff-fe2f28965563",
-                  "mitigation": "2. Validierung bei der direkten Abfrage von Daten."
+                  "mitigation": "2. Validierung bei der direkten Abfrage von Daten.\nRisikoreduktion: 5",
+                  "description": "Manager gespooft\nRisikobewertung:10"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "Angreifer seine Logdaten löschen",
+                  "description": "Risikobewertung: 7",
+                  "mitigation": "Log-Datenbank verschlüsseln\nRisikoreduktion: 2",
+                  "threatId": "1898d7c4-2e1b-4241-9d6c-8a8e05cfa7b1"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Log-Datenbank"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -916,6 +948,18 @@
               "id": "0d8def72-21ec-449d-9810-b7960f87d129",
               "z": 28,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Als System spoofen",
+                  "type": "Spoofing",
+                  "description": "Risikobewertung: 10",
+                  "mitigation": "Siem system komplett auslagern, sodass man selbst, wenn man im system ist, nicht auf das siem zugreifen kann\nRisikoreduktion: 3",
+                  "threatId": "a764dea0-0dd5-479b-99af-13737c5cf88f"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -1431,28 +1475,28 @@
               "angle": 0,
               "id": "11c4828d-72d1-4dfb-a224-954cb8259764",
               "z": 43,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Low",
                   "modelType": "STRIDE",
                   "type": "Tampering",
                   "title": "Änderung von Empfangsemailadresse",
-                  "description": "Man hat den Zugangsdaten des Managers (Spoofing)",
-                  "mitigation": "Änderung der Emailadresse nur beim Systemkonfigurieren",
+                  "description": "Man hat den Zugangsdaten des Managers (Spoofing)\nRsikobewertung: 7",
+                  "mitigation": "Änderung der Emailadresse nur beim Systemkonfigurieren\nRisikoreduktion: 2",
                   "threatId": "1002d194-55e5-4c24-8a86-c5634164719b"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Export"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
