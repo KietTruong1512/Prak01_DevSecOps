@@ -1185,11 +1185,77 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 259,
+                "y": 9
+              },
+              "target": {
+                "x": 793,
+                "y": 803
+              },
+              "vertices": [
+                {
+                  "x": 335,
+                  "y": 283
+                },
+                {
+                  "x": 539,
+                  "y": 338
+                },
+                {
+                  "x": 594,
+                  "y": 747
+                }
+              ],
+              "id": "3393c788-e758-4a29-b851-75f6cd02c621",
+              "z": 35,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 246,
+                "y": 111
+              },
+              "target": {
+                "x": 834,
+                "y": 794
+              },
+              "vertices": [
+                {
+                  "x": 623,
+                  "y": 139
+                },
+                {
+                  "x": 662,
+                  "y": 368
+                },
+                {
+                  "x": 937,
+                  "y": 409
+                }
+              ],
+              "id": "c545c438-8a64-4ca4-b1ea-99d76d7e03d9",
+              "z": 36,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 978,
+          "height": 1250,
           "width": 2269
         }
       }
