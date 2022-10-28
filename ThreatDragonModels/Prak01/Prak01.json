@@ -30,16 +30,27 @@
               "angle": 0,
               "id": "d1ea7c02-b616-4fbb-816b-2543de7bf774",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Denial of service",
+                  "title": "Login Anfrage",
+                  "mitigation": "Limitierte Anzahl an Anfrage\nTechnisch: Proxy vorschalten",
+                  "threatId": "4d143121-d051-418a-8d85-b9316169f7eb"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Login System +\nMobile App +\nWeb App"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -56,16 +67,27 @@
               "angle": 0,
               "id": "d72b5497-5d07-446e-9d45-5e6f0f99cf5d",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "title": "Login Anfragen",
+                  "type": "Denial of service",
+                  "mitigation": "Limitierte Anzahl an Anfragen\ntechnisch: Proxy vorschalten",
+                  "threatId": "8ce27bf9-bf3e-4a09-81de-fe5f01dc71eb"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "2-faktor\nAuthentifizeirungsdienst"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -134,16 +156,28 @@
               "angle": 0,
               "id": "bef5f4a4-9e73-44ea-903b-579750615c67",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "isSigned": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information disclosure",
+                  "title": "Daten als Manager abfragen",
+                  "threatId": "6b05b15e-e13e-4c92-95ff-fe2f28965563",
+                  "mitigation": "2. Validierung bei der direkten Abfrage von Daten."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Log-Datenbank"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1163,8 +1197,8 @@
               },
               "smooth": true,
               "source": {
-                "x": 319,
-                "y": 135
+                "x": 509,
+                "y": 283
               },
               "target": {
                 "x": 793,
@@ -1172,12 +1206,8 @@
               },
               "vertices": [
                 {
-                  "x": 335,
-                  "y": 283
-                },
-                {
-                  "x": 539,
-                  "y": 338
+                  "x": 581,
+                  "y": 452
                 },
                 {
                   "x": 594,
@@ -1196,8 +1226,8 @@
               },
               "smooth": true,
               "source": {
-                "x": 319,
-                "y": 127
+                "x": 567,
+                "y": 244
               },
               "target": {
                 "x": 797,
@@ -1205,12 +1235,8 @@
               },
               "vertices": [
                 {
-                  "x": 579,
-                  "y": 134
-                },
-                {
-                  "x": 617,
-                  "y": 316
+                  "x": 659,
+                  "y": 312
                 },
                 {
                   "x": 937,
@@ -1339,8 +1365,8 @@
                   "y": 298
                 },
                 {
-                  "x": 784,
-                  "y": 91
+                  "x": 804,
+                  "y": 95
                 },
                 {
                   "x": 1351,
@@ -1359,22 +1385,14 @@
               },
               "smooth": true,
               "source": {
-                "x": 562,
-                "y": 2
+                "x": 504,
+                "y": 285
               },
               "target": {
-                "x": 555,
-                "y": 1
+                "x": 569,
+                "y": 242
               },
               "vertices": [
-                {
-                  "x": 739,
-                  "y": 50
-                },
-                {
-                  "x": 482,
-                  "y": 286
-                },
                 {
                   "x": 100,
                   "y": 283
@@ -1388,8 +1406,12 @@
                   "y": 81
                 },
                 {
-                  "x": 328,
-                  "y": 12
+                  "x": 313,
+                  "y": 17
+                },
+                {
+                  "x": 710,
+                  "y": 22
                 }
               ],
               "id": "6880388f-7b38-4135-9da3-8554a48f75b6",
@@ -1409,16 +1431,28 @@
               "angle": 0,
               "id": "11c4828d-72d1-4dfb-a224-954cb8259764",
               "z": 43,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "title": "Änderung von Empfangsemailadresse",
+                  "description": "Man hat den Zugangsdaten des Managers (Spoofing)",
+                  "mitigation": "Änderung der Emailadresse nur beim Systemkonfigurieren",
+                  "threatId": "1002d194-55e5-4c24-8a86-c5634164719b"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Export"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
