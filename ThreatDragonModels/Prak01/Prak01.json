@@ -34,11 +34,11 @@
               "threats": [
                 {
                   "status": "Mitigated",
-                  "severity": "Low",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "type": "Denial of service",
-                  "title": "Login Anfrage",
-                  "mitigation": "Limitierte Anzahl an Anfrage\nTechnisch: Proxy vorschalten\nRisikoreduktion: 3",
+                  "title": "Mehrere Login Anfrage",
+                  "mitigation": "Limitierte Anzahl an Anfrage\nTechnisch: Proxy vorschalten\nRisikoreduktion: 7",
                   "threatId": "4d143121-d051-418a-8d85-b9316169f7eb",
                   "description": "Risikobewertung: 10"
                 },
@@ -51,6 +51,16 @@
                   "description": "Risikobewertung: 10",
                   "mitigation": "MAC-Adressse und IP-Adresse überprüfen\nRisikobewertung: 6",
                   "threatId": "1214dabb-c5cf-4a1b-9e74-e090bbfc88b4"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Auf eingeloggte Computer zugreifen",
+                  "description": "Authentifizierungssession für 1 Jahr gültig\nRisikobewertung: 10",
+                  "mitigation": "Session verkürzen (5-10Min)\nRisikoreduktion: 7",
+                  "threatId": "d50dc6a0-6c9c-48f9-9c4a-c7bf814b2bbf"
                 }
               ],
               "attrs": {
@@ -72,22 +82,23 @@
                 "height": 80
               },
               "position": {
-                "x": 365,
-                "y": 155
+                "x": 363,
+                "y": 157
               },
               "angle": 0,
               "id": "d72b5497-5d07-446e-9d45-5e6f0f99cf5d",
               "z": 2,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "modelType": "STRIDE",
-                  "title": "Login Anfragen",
+                  "title": "Mehrere Login Anfragen",
                   "type": "Denial of service",
-                  "mitigation": "Limitierte Anzahl an Anfragen\ntechnisch: Proxy vorschalten",
-                  "threatId": "8ce27bf9-bf3e-4a09-81de-fe5f01dc71eb"
+                  "mitigation": "Limitierte Anzahl an Anfragen\ntechnisch: Proxy vorschalten\nRisikoreduktion: 7",
+                  "threatId": "8ce27bf9-bf3e-4a09-81de-fe5f01dc71eb",
+                  "description": "Risikobewertung: 10"
                 },
                 {
                   "status": "Mitigated",
@@ -102,13 +113,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "2-faktor\nAuthentifizeirungsdienst"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -171,8 +182,8 @@
                 "height": 80
               },
               "position": {
-                "x": 359,
-                "y": 9
+                "x": 360,
+                "y": 21
               },
               "angle": 0,
               "id": "bef5f4a4-9e73-44ea-903b-579750615c67",
@@ -305,6 +316,18 @@
               "id": "8891d482-b9e1-449e-a4ec-0fca060f4018",
               "z": 11,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Denial of service",
+                  "title": "Mehrere Anfrage",
+                  "description": "Risikobewertung: 7",
+                  "mitigation": "Zeit zwischen Anfragen beobachten, wenn zu viel dann limitiert.\nRisikoreduktion: 5",
+                  "threatId": "29b4d7be-a90b-4464-a2a2-94f50c1a5a8a"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -955,8 +978,8 @@
                   "modelType": "STRIDE",
                   "title": "Als System spoofen",
                   "type": "Spoofing",
-                  "description": "Risikobewertung: 10",
-                  "mitigation": "Siem system komplett auslagern, sodass man selbst, wenn man im system ist, nicht auf das siem zugreifen kann\nRisikoreduktion: 3",
+                  "description": "Risikobewertung: 9",
+                  "mitigation": "Siem system komplett auslagern, sodass man selbst, wenn man im system ist, nicht auf das siem zugreifen kann\nRisikoreduktion: 6",
                   "threatId": "a764dea0-0dd5-479b-99af-13737c5cf88f"
                 }
               ],
@@ -1469,8 +1492,8 @@
                 "height": 100
               },
               "position": {
-                "x": 592,
-                "y": 16
+                "x": 575,
+                "y": 19
               },
               "angle": 0,
               "id": "11c4828d-72d1-4dfb-a224-954cb8259764",
