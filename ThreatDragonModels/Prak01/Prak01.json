@@ -56,7 +56,7 @@
                   "status": "Mitigated",
                   "severity": "High",
                   "modelType": "STRIDE",
-                  "type": "Spoofing",
+                  "type": "Repudiation",
                   "title": "Auf eingeloggte Computer zugreifen",
                   "description": "Authentifizierungssession für 1 Jahr gültig\nRisikobewertung: 10",
                   "mitigation": "Session verkürzen (5-10Min)\nRisikoreduktion: 7",
