@@ -1194,8 +1194,8 @@
               },
               "smooth": true,
               "source": {
-                "x": 259,
-                "y": 9
+                "x": 265,
+                "y": 109
               },
               "target": {
                 "x": 793,
@@ -1231,8 +1231,8 @@
                 "y": 111
               },
               "target": {
-                "x": 834,
-                "y": 794
+                "x": 797,
+                "y": 798
               },
               "vertices": [
                 {
@@ -1250,6 +1250,123 @@
               ],
               "id": "c545c438-8a64-4ca4-b1ea-99d76d7e03d9",
               "z": 36,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 13,
+                "y": 2
+              },
+              "angle": 0,
+              "id": "dc3a386b-9aed-4eaa-8f47-2ea1ac89592c",
+              "z": 37,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 19,
+                "y": 154
+              },
+              "target": {
+                "x": 249,
+                "y": 96
+              },
+              "vertices": [],
+              "id": "03276006-9114-4ca9-bac7-bef139bb273d",
+              "z": 38,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "dc3a386b-9aed-4eaa-8f47-2ea1ac89592c"
+              },
+              "target": {
+                "id": "d1ea7c02-b616-4fbb-816b-2543de7bf774"
+              },
+              "vertices": [],
+              "id": "79f73c8e-3e56-4b2f-a0db-8ac658846e25",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 39,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 511,
+                "y": 497
+              },
+              "target": {
+                "x": 503,
+                "y": 499
+              },
+              "vertices": [
+                {
+                  "x": 169,
+                  "y": 486
+                },
+                {
+                  "x": 187,
+                  "y": 333
+                },
+                {
+                  "x": 485,
+                  "y": 353
+                }
+              ],
+              "id": "642c1588-22a0-4494-b521-3a25f06c3d6b",
+              "z": 40,
               "attrs": {}
             }
           ]
