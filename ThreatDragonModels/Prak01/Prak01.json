@@ -9,6 +9,13 @@
         "name": "Jm9567s"
       }
     ],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "Prak01_DFD",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ]
   }
 }
